@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clear:before{
+    content:'';
+    display:table;
+}
+/************第一部分代码********/
+.cont_part1{
+    width:100%;
+    height:680px;
+    background:#fee909;
+}
+.cont_part1 .child_cont{
+    width:1200px;
+    height:100%;
+    margin:0 230px;
+    background:url('../image/part01_bg.png')no-repeat center top;
+}
+.child_cont div.lf{
+    width:850px;
+    float:left;
+}
+div.lf .logo{
+    margin:100px 0 0 100px;
+}
+div.lf .part1_title{
+    margin:50px 0 0 120px;
+}
+div.lf .subtitle{
+    font-size: 45px;
+    color:#404040;
+    font-family: "PinFang SC","Helvetica Neue","Hiragino Sans GB","Segoe UI","Microsoft YaHei","微软雅黑",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: lighter;
+    margin:20px 120px;
+}
+div.lf .down_type1,div.lf .down_type2{
+    margin-top:50px;
+    width:150px;
+    height:50px;
+    line-height:50px;
+    border-radius: 6px;
+    background:#1f1e23;
+    text-align: center;
+    position:relative;
+    margin-left:120px;
+}
+div.lf .down_type2{
+    margin-top:10px;
+}
+.down_type1 span.icon,.down_type2 span.icon{
+    display:inline-block;
+    width:21px;
+    height:25px;
+    position:absolute;
+    top:10px;
+    left:30px;
+}
+.down_type2 span.icon{
+    left:25px;
+}
+.down_type1 span.icon{
+    background:url("../image/download_ios.png")no-repeat;
+}
+.down_type2 span.icon{
+    background:url("../image/download_android.png")no-repeat;
+}
+.down_type1 span.character,.down_type2 span.character{
+    position:absolute;
+    right:25px;
+    font-size: 16px;
+    color:#fff;
+    font-family: "Microsoft YaHei";
+}
+.down_type2 span.character{
+    right:18px;
+}
+.child_cont div.rt{
+    float:right;
+    margin-top:167px;
+}
+
+/************第二部分代码********/
+.cont_part2{
+    width:100%;
+    height:680px;
+    background:#fff;
+}
+.cont_part2 .child_cont,.cont_part3 .child_cont{
+    width:975px;
+    height:100%;
+    margin:0 290px;
+}
+.cont_part2 .child_cont .lf{
+    float:left;
+    width:50%;
+    box-sizing: border-box;
+    margin-top:120px;
+    padding-left:205px;
+}
+.cont_part2 .child_cont .rt{
+    width:47%;
+    float:right;
+    margin-top:210px;
+}
+.cont_part2 .child_cont .rt p,.cont_part3 .child_cont .lf p{
+    font-size: 40px;
+    font-family: "PinFang SC","Helvetica Neue","Hiragino Sans GB","Segoe UI","Microsoft YaHei","微软雅黑",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color:#404040;
+    font-weight: lighter;
+}
+.cont_part2 .child_cont .rt div.line,.cont_part3 .child_cont .lf div.line{
+    width:78px;
+    height:4px;
+    background:#fee909;
+    margin-top:10px;
+}
+.cont_part2 .child_cont .rt p.subtitle,.cont_part3 .child_cont .lf p.subtitle{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    margin-top:24px;
+    line-height:30px;
+}
+/************第三部分代码********/
+.cont_part3{
+    width:100%;
+    height:680px;
+    background:linear-gradient(top,#0d80e2,#4160ff);
+    background:-webkit-linear-gradient(top,#0d80e2,#4160ff);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0d80e2), to(#4160ff));
+    background:-moz-linear-gradient(top,#0d80e2,#4160ff);
+    background:-o-linear-gradient(top,#0d80e2,#4160ff);
+    background:-ms-linear-gradient(top,#0d80e2,#4160ff);
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#0d80e2,endColorStr=#4160ff,gradientType=0);
+
+}
+.cont_part3 .child_cont .rt{
+    float:right;
+    width:30%;
+    box-sizing: border-box;
+    margin-top:120px;
+    padding-left:20px;
+}
+.cont_part3 .child_cont .lf{
+    width:67%;
+    float:left;
+    margin-top:210px;
+    box-sizing: border-box;
+}
+.cont_part3 .child_cont .lf p{
+    margin-left:188px;
+    color:#fff;
+}
+.cont_part3 .child_cont .lf div.line{
+    margin-left:188px;
+}
+.cont_part3 .child_cont .lf p.subtitle{
+    margin-right:0;
+    color:#fff;
+}
+/************第四部分代码********/
+.cont_part4{
+    width:100%;
+    height:680px;
+    background:#201f24;
+    position: relative;
+}
+.cont_part4 .title{
+    width:770px;
+    height:40px;
+    line-height: 40px;
+    text-align:center;
+    margin:146px auto;
+    /*border:1px solid red;*/
+    color:#fff;
+    font-size:40px;
+    position:relative;
+}
+.cont_part4 .title p{
+    font-family: "PinFang SC","Helvetica Neue","Hiragino Sans GB","Segoe UI","Microsoft YaHei","微软雅黑",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: lighter;
+}
+.cont_part4 .title span{
+    display: inline-block;
+    height:2px;
+    width:68px;
+    background:#fff;
+    position:absolute;
+}
+.cont_part4 .title span.lf{
+    top:20px;
+    left:0px;
+}
+.cont_part4 .title span.rt{
+    top:20px;
+    right:0px;
+}
+.connect{
+    width:690px;
+    height:100px;
+    line-height:100px;
+    margin:0 auto;
+    font-size: 18px;
+    color:#fff;
+    position: relative;
+}
+.connect .tel{
+    float:left;
+    margin-left:40px;
+}
+.connect .tel p{
+    color:#fff;
+}
+.connect span.icon{
+    display:inline-block;
+    width:27px;
+    height:30px;
+    position:absolute;
+}
+.connect .tel span.icon{
+    background: url("../image/part04_contact.png")no-repeat;
+    left:0px;
+    top:35px;
+}
+.connect .address span.icon{
+    background: url("../image/part04_address.png")no-repeat;
+    left:295px;
+    top:35px;
+}
+.connect .address{
+    font-family: "Microsoft YaHei";
+    float:right;
+}
+.company{
+    width:400px;
+    height:40px;
+    position: absolute;
+    text-align:center;
+    bottom:52px;
+    left:0px;
+    right:0px;
+    margin:0 auto;
+    font-size:14px;
+    color:#9f9f9f;
+}
